@@ -1,8 +1,11 @@
 FROM python:3.9
 
+# Create new user
+RUN useradd -m -s /bin/bash newuser
+
 USER newuser
 
-WORKDIR /home/newuser/code
+WORKDIR /code
 
 COPY ./setup.py /code/setup.py
 
