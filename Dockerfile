@@ -2,7 +2,7 @@ FROM python:3.9
 
 USER newuser
 
-WORKDIR /code
+WORKDIR /home/newuser/code
 
 COPY ./setup.py /code/setup.py
 
