@@ -50,4 +50,4 @@ jobs:
         run: docker build . --file Dockerfile --tag ghcr.io/ClawdeenFleury/tp2:latest
       
       - name: Push the image into the registry
-        run: docker push ghcr.io/ClawdeenFleury/industrialisation-log:latest
+        run: docker push ghcr.io/ClawdeenFleury/tp2:latest
